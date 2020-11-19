@@ -1,0 +1,119 @@
+.shopping-cart {
+  width: 750px;
+  height: 123px;
+
+  box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  align-items: flex-start;
+}
+
+.title {
+  height: 60px;
+  border-bottom: 1px solid #ffffff;
+  padding: 20px 30px;
+  color: #5e6977;
+  font-size: 28px;
+  font-weight: 400;
+}
+#prixtotal {
+  font-size: 50px;
+}
+.prod {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1600px;
+}
+.prod1 {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  width: 1600px;
+}
+.prod2 {
+  margin-top: 80px;
+  display: flex;
+  width: 1600px;
+  justify-content: space-between;
+}
+
+.buttons {
+  padding-top: 30px;
+  margin-right: 160px;
+}
+.delete-btn,
+.like-btn {
+  display: inline-block;
+}
+.delete-btn {
+  width: 18px;
+  height: 17px;
+  margin-right: 150px;
+}
+
+.like-btn {
+  width: 9px;
+  height: 8px;
+}
+
+.description {
+  width: 115px;
+  margin-left: 100px;
+}
+
+.description span {
+  display: block;
+  font-size: 24px;
+  color: #43484d;
+  font-weight: 400;
+}
+#ligne {
+  display: flex;
+}
+.quantity {
+  padding-top: 20px;
+  margin-right: 60px;
+  margin-left: 60px;
+  width: 50px;
+  height: 50px;
+}
+.quantity input {
+  -webkit-appearance: none;
+  border: none;
+  text-align: center;
+  width: 65px;
+  font-size: 16px;
+  color: #3de014;
+  font-weight: 300;
+}
+
+button[class*="btn"] {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+.btn-minus img {
+  margin-bottom: 0px;
+}
+.btn-plus img {
+  margin-top: 0px;
+}
+
+button:focus,
+input:focus {
+  outline: 5;
+}
+.total-price {
+  width: 83px;
+  padding-top: 27px;
+  text-align: center;
+  font-size: 16px;
+  color: #43484d;
+  font-weight: 300;
+  display: flex;
+  align-items: flex-end;
+}
+.product-price {
+  font-size: 80px;
+}
